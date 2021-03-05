@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Momo Shop</title>
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="momocss.css" /> 
+      <style>
+        @media only screen and(max-width: 800 px){
+          
+          #footer{
+    width: 100%;
+    margin-top: 1%;
+    background-color:rgb(63, 18, 63);
+     display: flex;
+     justify-content: center;
+     
+    }
+    .footer{
+        
+        margin: 1% 1%;
+        padding: 1% 1%;
+    }
+        }
+      </style>
+      
+        
+    </head>
+    <body>
+       <header>
+           <nav id="navbar"> 
+               <div id="maindivfornav">
+               <div class="navimg">
+                   <img src="momologo.png" id="logoimg"> 
+                   
+                   
+               </div>
+               
+               <div class="navul">
+                   <ul class="navg">
+                       <li><a href="index.html" class="active">HOME</a></li>
+                       <li><a href="#abtus">ABOUT US</a></li>
+                       <li><a href="menu.html" target="_blank">MENU</a></li>
+                       <li><a href="login.html" target="_blank">ORDER NOW</a></li>
+                   </ul>  
+                </div>
+            </div>
+          </nav>
+        </header>
+          <h2>No more <span class="animate">FOMO</span> when you can have <span class="animate">MOMO</span> anytime !!!</h2>
+          <!-- Slideshow container -->
+         <div  class="slideshow-container" >
+            
+
+            <!--Full-width images with number and caption text-->
+           
+            <div class="mySlides fade ">
+          
+          <img class="img" src="https://english.mathrubhumi.com/polopoly_fs/1.4598756.1583737451!/image/image.jpg_gen/derivatives/landscape_894_577/image.jpg" >
+          <div class="text">Mouth watering <mark>street style momo </mark>.</div>
+        </div>
+      
+        <div class="mySlides fade ">
+          
+          <img class="img" src="https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/sites/1/2017/02/01114603/010317_FriedMomos.jpg" >
+          <div class="text">That golden crisp !<br><mark>Fried momos</mark></div>
+        </div>
+      
+        <div class="mySlides fade ">
+          
+          <img class="img" src="https://i.ytimg.com/vi/TYFjFpjXC-k/maxresdefault.jpg" >
+          <div class="text">How hot is too hot ???<br><mark> Chilli momos</mark></div>
+        </div>
+      </div>
+      
+      <br>
+      
+      <script type="text/javascript">  
+        var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); 
+}
+    </script>
+<div name="aboutus" id="abtus">
+     <div style="padding-top: 0.5%;">
+     <h2 style="background-color: green; color: white;">Welcome to the ultimate destination for momos.</h2>
+    </div>
+    <div style="display: flex;flex-direction: row;">
+        <div id="aboutus-logo">
+            <img src="momologo.png">
+         </div>
+        <div id="aboutus-para">
+        <p>In creating The Momo shop, our founders, Muskan Hirwani,Sarvesh Patel and Andirie Sen Rastogi, wanted to celebrate the spirit of Indianized-Chinese food.
+            Started in 2018, The Momo Shop offers a variety of popular momos , all prepared with fresh in-house sauces & gravies and Cooked to perfection by our chefs.
+            Super easy on the pocket, delivered super-fast and packed with total awesomeness, The Momo shop is your food brand next door.
+             We pride ourselves on the quality and the extensive variety of dishes on our menu. 
+             Prepared in the most hygienic conditions with the best-quality ingredients,The Momo Shop is comfort food.<br>
+             Order Online from our range of best dishes ranging from veg & non-veg momos all prepared with fresh in–house sauces and gravies.
+        </p>
+        </div>
+        
+    </div>
+
+  <div id="aboutus-images">
+     <img class="imagesabtus" src="https://static01.nyt.com/images/2012/02/22/dining/22DUMPLING1_SPAN/22DUMPLING1_SPAN-articleLarge-v2.jpg">
+     <img class="imagesabtus" src="https://thefoodxp.com/wp-content/uploads/2020/06/WOW-MOMO-menu.jpg" >
+     <img class="imagesabtus" src="https://b.zmtcdn.com/data/pictures/chains/8/18577178/52e240eb8972ad696d58e1c60b9368b6.jpg">
+     <img class="imagesabtus" src="https://im.whatshot.in/img/2020/Feb/untitled-collage-2-1580881912.jpg">
+     
+  </div>
+</div><br>
+<footer class="responsive-footer">
+  <div id="footer">
+    <div class="footer footer-left">
+      <p><u>Hours:</u><br> Sun-Thurs: 10:00 am - 9:30 pm<br>
+             Friday: 10:00 am - 2 :30 pm <br>
+             Saturday closed
+      </p>
+    </div>
+    <div class="footer footer-center">
+      <p>
+        <u>Address:</u><br>
+G.F 14-18, Rohatas presidental arcade,
+Vibhuti khand,Gomti Nagar,Lucknow
+Uttar Pradesh 226010 <br>
+* delivery  area within 3-4 miles, with minimum order of Rs 150.
+      </p>
+    </div>
+    <div class="footer footer-right">
+      <p>
+        <u>Mail us at:</u><br>themomoshop@gmail.com<br><br>
+        <u>Contact nos:</u><br> 8876522391, 7296400321
+      </p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
